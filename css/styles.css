@@ -79,7 +79,7 @@ nav {
 .header {
     font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 @media screen and (max-width:700px) {
