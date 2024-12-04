@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    color: #311212;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+main {
+    max-width: 1000px;
+    padding-top:20px;
+}
+
+img {
+    border-radius: 5px;
+    height: 20rem;
+}
+
+aside {
+    max-width: 800px;
+    padding-top:10px;
+	padding-bottom:10px;
+    border-top: dotted 2px #311212;
+	margin-top:10px;
+}
+
+figure {
+    padding-bottom: 20px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+figcaption {
+    font-size:1rem;
+    color: #696565;
+    padding-top:3px;
+}
+
+a {
+    text-decoration: none;
+    color: #311212;
+}
+a:visited {
+    color: #311212;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.heading {
+    font-family: "Rubik Wet Paint";
+    font-size: 3rem;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color: #696565;
+}
+
+nav {
+    padding-bottom:20px;
+    justify-self: center;
+}
+
+.nav-link {
+    display:inline-block;
+    padding-right:20px;
+    font-weight:bold;
+}
+
+@media screen and (max-width:700px) {
+    img{
+        height: 10rem;
+    }
+    
+}
